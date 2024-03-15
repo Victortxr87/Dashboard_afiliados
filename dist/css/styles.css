@@ -1,15 +1,8 @@
 @charset "UTF-8";
-/*!
-* Start Bootstrap - SB Admin v7.0.7 (https://startbootstrap.com/template/sb-admin)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-sb-admin/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap  v5.2.3 (https://getbootstrap.com/)
- * Copyright 2011-2022 The Bootstrap Authors
- * Copyright 2011-2022 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
+@import '/dist/css/mobile.css';
+@import '/dist/css/forms.css';
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -78,6 +71,7 @@
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
+
 
 *,
 *::before,
@@ -11244,100 +11238,5 @@ body {
 
 
 /* Forms CSS */
-
-body.my-login-page {
-    background-color: #f7f9fb;
-    font-size: 14px;
-}
-
-img {
-    max-width: 100%;
-}
-
-.my-login-page .brand {
-    width: 50%;
-    overflow: hidden;
-    margin: 40px auto;
-    position: relative;
-    z-index: 1;
-}
-
-.my-login-page .brand img {
-    width: 100%;
-}
-
-.my-login-page .card-wrapper {
-    width: 400px;
-}
-
-.my-login-page .card {
-    border-color: transparent;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, .05);
-}
-
-.my-login-page .card.fat {
-    padding: 10px;
-}
-
-.my-login-page .card .card-title {
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-.my-login-page .form-control {
-    border-width: 2.3px;
-}
-
-.email-group,
-.password-group {
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-}
-
-
-.password-group label {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
-
-
-.my-login-page .btn.btn-block {
-    padding: 12px 10px;
-    background-color: #DC6C26 !important;
-    border: none !important;
-    width: 100%;
-}
-
-.my-login-page .footer {
-    margin: 40px 0;
-    color: #888;
-    text-align: center;
-}
-
-#loginForm {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-@media screen and (max-width: 425px) {
-    .my-login-page .card-wrapper {
-        width: 90%;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .my-login-page .card.fat {
-        padding: 0;
-    }
-
-    .my-login-page .card.fat .card-body {
-        padding: 15px;
-    }
-}
-
 
 /* Forms CSS */
